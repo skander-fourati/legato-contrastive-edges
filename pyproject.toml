@@ -1,0 +1,16 @@
+[project]
+name = "legato-contrastive-edges"
+version = "0.0.0"
+description = "Work in progress: contrastive supervision of LEGATO's learned view graph."
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "torch",
+    "torch_geometric",
+    "torchmetrics",
+    "ipykernel",
+    "nbformat",
+]
